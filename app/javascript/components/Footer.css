@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  height: 20vh;
+  width: 100vw;
+  background: linear-gradient(to left, rgb(131, 130, 130) , rgb(100, 99, 99), rgb(188, 188, 245));
+}
+
+
+.footer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;     
+  padding: 8px 16px; 
+  color: #fff;       
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .footer h3 {
+      font-size: 12px;        
+      margin-top: 8px;     
+      padding: 2px 4px; 
+  }
+}
