@@ -1,0 +1,24 @@
+#parallax {
+  display: flex;
+  align-items: center;
+  justify-content: center;       
+  width: 100vw;
+  height: 100vh;     
+  position: relative; 
+  overflow: hidden; 
+
+
+}
+
+
+#parallax h1 {  
+  font-size: 2rem;
+  line-height: 0.8em;
+  font: bolder;
+  padding: 10px;  
+  z-index: 1;  
+  color: #fff;
+  margin-top: -10%;
+  margin-left: -50%;
+ 
+}

@@ -1,10 +1,12 @@
 import React from 'react'
 import './About.css'
+import Energy from 'images/energy.jpg'
 
 class About extends React.Component{
  render() {
    return (
-    <div id="about"> 
+    <div id="about" style={{backgroundImage: `url(${Energy})`}}> 
+    
       <h2 id="aboutHeading">Our Impact</h2>
       <p id="aboutParagraph">Our metals and minerals are the essential ingredients in 
         electric cars, smartphones and rockets and golfballs, while continually working to reduce tradition vehicle
