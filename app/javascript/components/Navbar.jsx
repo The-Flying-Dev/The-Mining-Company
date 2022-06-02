@@ -6,10 +6,10 @@ function Navbar() {
     <div id="navbar" className="header">
 		  <p className="logo"><a href="#">The Mining Co.</a></p>
       <ul className="main-nav">
-        <li><a href="#parallax">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact</a></li>
       </ul> 
 	  </div>
   )

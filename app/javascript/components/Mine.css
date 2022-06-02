@@ -6,8 +6,7 @@
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   width: 100vw;
-  height: 100vh;
-  
+  height: 100vh;  
   background-attachment: fixed;
   background-size:  100% 100%;
 }
@@ -22,17 +21,7 @@
   
 }
 
-@media screen and (max-width: 800px) { 
 
-  #mine {
-      height: 100vh;
-  }
-
-  #quote {
-      font-size: 1.6rem;
-      margin-top: 350px;
-  }
-}
 
 
 
@@ -56,23 +45,11 @@ font: bolder;
 padding: 20px;  
 z-index: 1;  
 color: #fff;
-margin-bottom: -20%;
-margin-left: 65%;
+padding-bottom: -20%;
+padding-left: 65%;
 
 }
 
-@media screen and (max-width: 800px) {
-
-  #parallax__video {
-      height: 90vh;
-  }
-
-  #parallax__video h1 {
-      font-size: 1rem;
-      line-height: 1.2em;        
-      padding: 10px; 
-  }
-}
 
 .video {
   position: absolute;  
@@ -80,7 +57,8 @@ margin-left: 65%;
   left: 0;
   right: 0; 
   bottom: 0;    
-  width: 100%; 
+  width: auto; 
   height: auto; 
+  
   
 }

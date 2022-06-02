@@ -17,13 +17,13 @@ function Mine() {
       </div>
 
       <div id="parallax__video">
-      <h1>"Always Pushing Forward<br />Always Breaking Barriers<br />Always Looking Ahead."</h1>
-   
-      <div className="background__video">          
-        <video src={construction} autoPlay="true" loop muted className="video" type='video/mp4'/>    
-      </div>
+        <h1>"Always Pushing Forward<br />Always Breaking Barriers<br />Always Looking Ahead."</h1>
     
-    </div>
+                 
+          <video src={construction} autoPlay="true" loop muted className="video" type='video/mp4'/>    
+        
+      
+      </div>
     </>
   )
 }

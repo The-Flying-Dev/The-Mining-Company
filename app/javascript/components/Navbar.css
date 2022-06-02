@@ -22,12 +22,12 @@ a {
 
 .logo a {
   font-size: .99em;
-  color: orange;
-  
+  color: orange;  
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   display: block;
+  padding-left: 4vw;
 }
 
 
@@ -51,8 +51,7 @@ a {
 
 
 
-.header {           
-  padding-top: .5em;
+.header {       
   padding-bottom: .5em;
   border: 1px solid #a2a2a2;
   background: linear-gradient(to left, grey , black,  rgb(63, 63, 219));;/*linear-gradient(to left, #699297d5 0%, #a6dbdb 100%)*/;
@@ -69,9 +68,9 @@ a {
   width: 100vw;
   display: flex;     
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  margin-top: -2px;
+  font-family: 'Times New Roman', Times, serif;  
   z-index: 5;
+  margin-top: -8px;
   
 }
 
